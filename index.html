@@ -15,11 +15,8 @@
 </head>
 <body>
     <main>
-        <section class="changeImg">
-                <button onclick="mudarCor()" id="botao1"> &lt; &lt; </button>
-                <button onclick="mudarCor()" id="botao2"> &gt; &gt; </button>
-        </section>
         <section class="robotron">
+            <img class="robo" id="roboDefault" src="img/robotron.png" alt="Robotron">
             <img class="robo" id="roboAzul" src="img/robotron-azul.png" alt="Robotron">
             <img class="robo" id="roboAmarelo" src="img/robotron-amarelo.png" alt="Robotron">
             <img class="robo" id="roboBranco" src="img/robotron-branco.png" alt="Robotron">
@@ -105,10 +102,10 @@
                         </div>
                     </div>
                 </div>
+                    <button onclick="voltarCor()" id="botao1" type="button"> &lt; &lt; </button>
+                    <button onclick="proximaCor()" id="botao2" type="button"> &gt; &gt; </button>
                 <input type="submit" value="Iniciar produção" class="producao" id="producao">
-
             </form>
-        </section>
     </main>
 </body>
 </html>
