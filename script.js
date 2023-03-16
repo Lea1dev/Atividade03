@@ -5,23 +5,23 @@ function proximaCor(){
         case "img/robotron-azul.png":
         case "img/robotron.png":
             contador = 1;
-            imagemAtual.src = imagens[1];
+            imagemAtual.src = imagens[contador];
             break;
         case "img/robotron-amarelo.png":
             contador += 1;
-            imagemAtual.src = imagens[2];
+            imagemAtual.src = imagens[contador];
             break;
         case "img/robotron-branco.png":
             contador += 1;
-            imagemAtual.src = imagens[3];
+            imagemAtual.src = imagens[contador];
             break;
         case "img/robotron-preto.png":
             contador += 1;
-            imagemAtual.src = imagens[4];
+            imagemAtual.src = imagens[contador];
             break;
         case "img/robotron-rosa.png":
             contador += 1;
-            imagemAtual.src = imagens[5];
+            imagemAtual.src = imagens[contador];
             break;
     }
 }
@@ -31,23 +31,23 @@ function voltarCor(){
     switch(imagemAtual.getAttribute("src")){
         case "img/robotron-amarelo.png":
             contador -= 1;
-            imagemAtual.src = imagens[0];
+            imagemAtual.src = imagens[contador];
             break;
         case "img/robotron-branco.png":
             contador -= 1;
-            imagemAtual.src = imagens[1];
+            imagemAtual.src = imagens[contador];
             break;
         case "img/robotron-preto.png":
             contador -= 1;
-            imagemAtual.src = imagens[2];
+            imagemAtual.src = imagens[contador];
             break;
         case "img/robotron-rosa.png":
             contador -= 1;
-            imagemAtual.src = imagens[3];
+            imagemAtual.src = imagens[contador];
             break;
         case "img/robotron-vermelho.png":
             contador -= 1;
-            imagemAtual.src = imagens[4];
+            imagemAtual.src = imagens[contador];
             break;
     }
 }
