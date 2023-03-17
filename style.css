@@ -9,7 +9,7 @@
 }
 
 body {
-    background: url(../img/fundo.jpg);
+    background: url("img/fundo.jpg");
     background-position: center center;
     background-size: cover cover;
     padding: 0;
@@ -41,7 +41,6 @@ main {
     height: 110%;
     z-index: 1;
     position: absolute;
-    left: -20%;
     top: -5%;
 }
 
@@ -242,6 +241,17 @@ main {
     justify-content: space-between;
     align-items: center;
 }
+
+.botoes{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 30px;
+    right: 100px;
+    position: absolute;
+    gap:30px;
+}
+
 #botao1, #botao2{
     display: flexbox;
     color: var(--main-preto);
